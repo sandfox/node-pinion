@@ -1,0 +1,24 @@
+{
+  "name": "pinion",
+  "version": "0.0.0",
+  "description": "a 'connect' like library for handling generic req/rep pairs for anything you can think of",
+  "main": "index.js",
+  "repository" : "git@github.com:sandfox/node-pinion.git",
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "middleware",
+    "connect",
+    "framework"
+  ],
+  "author": "sandfox",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "debug": "~0.7.4"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.16.2"
+  }
+}
